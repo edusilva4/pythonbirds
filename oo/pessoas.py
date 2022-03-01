@@ -20,3 +20,8 @@ eduardo = Pessoas(nome="Eduardo")
 julio = Pessoas(eduardo, nome="Rafael")
 for filho in julio.filhos:
     print(filho.nome)
+
+eduardo.sobrenome = "Santos Silva"
+print(eduardo.sobrenome)
+print(eduardo.__dict__)
+print(julio.__dict__)
